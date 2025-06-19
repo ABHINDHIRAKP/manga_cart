@@ -59,5 +59,19 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+Then open in browser: http://127.0.0.1:8000/
 
+---
 
+## 👤 Register new user
+
+```bash
+python manage.py createsuperuser
+```
+
+Enter the user credentials for logging in
+```bash
+Username: admin
+Email address: your-email@example.com
+Password: *********
+```
