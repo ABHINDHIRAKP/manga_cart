@@ -21,3 +21,8 @@ __pycache__/
 # Recommendation models
 manga/data/book_recommendation_model.pkl
 manga/data/popular.pkl
+
+# Ignore large files
+*.pkl
+*.csv
+*.sqlite3
