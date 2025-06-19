@@ -2,8 +2,8 @@ import pandas as pd
 import pickle
 
 # Load data
-books = pd.read_csv('C://Users//ABHINDHIRA//OneDrive//Documents//django//myworld//mangacart//manga//datasets//Books.csv')
-ratings = pd.read_csv('C://Users//ABHINDHIRA//OneDrive//Documents//django//myworld//mangacart//manga//datasets//Ratings.csv')
+books = pd.read_csv('C://Users//ABHINDHIRA//Documents//django//myworld//mangacart//manga//datasets//Books.csv')
+ratings = pd.read_csv('C://Users//ABHINDHIRA//Documents//django//myworld//mangacart//manga//datasets//Ratings.csv')
 
 # Popularity based recommendation system
 ratings_with_name = ratings.merge(books, on='ISBN')
@@ -26,7 +26,7 @@ popular_df.rename(columns={
     'num_ratings': 'num_ratings'
 }, inplace=True)
 # Save precomputed data
-with open(r'C:\Users\ABHINDHIRA\OneDrive\Documents\django\myworld\mangacart\manga\data\popular.pkl', 'wb') as f:
+with open('C://Users//ABHINDHIRA//Documents//django//myworld//mangacart//manga//data//popular.pkl', 'wb') as f:
     pickle.dump(popular_df, f)
 
 print("Popularity-based data precomputed and saved successfully.")

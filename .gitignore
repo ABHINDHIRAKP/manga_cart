@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# SQLite DB or secrets
+*.sqlite3
+*.env
+
+# VSCode or PyCharm project settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Django migrations (optional to ignore)
+**/migrations/*.py
+!**/migrations/__init__.py

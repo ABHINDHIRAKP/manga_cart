@@ -4,7 +4,7 @@ import pickle
 
 
 def recommend(book_name):
-    with open(r'C:\Users\ABHINDHIRA\OneDrive\Documents\django\myworld\mangacart\manga\data\book_recommendation_model.pkl', 'rb') as file:
+    with open("C://Users//ABHINDHIRA//Documents//django//myworld//mangacart//manga//data//book_recommendation_model.pkl", 'rb') as file:
       data = pickle.load(file)
 
     pt = data['pivot_table']

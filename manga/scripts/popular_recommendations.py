@@ -4,7 +4,7 @@ import pickle
 
 # Define the path to the popular.pkl file
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-POPULAR_DATA_PATH = os.path.join(BASE_DIR, 'data', r'C:\Users\ABHINDHIRA\OneDrive\Documents\django\myworld\mangacart\manga\data\popular.pkl')
+POPULAR_DATA_PATH = os.path.join(BASE_DIR, 'data', "C://Users//ABHINDHIRA//Documents//Django//myworld//mangacart//manga//data//popular.pkl")
 
 def get_popular_books():
     """
