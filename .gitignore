@@ -16,3 +16,7 @@ __pycache__/
 # Django migrations (optional to ignore)
 **/migrations/*.py
 !**/migrations/__init__.py
+
+
+# Recommendation models
+manga/data/*.pkl
